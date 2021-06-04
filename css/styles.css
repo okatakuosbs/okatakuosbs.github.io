@@ -1,0 +1,85 @@
+header h1 {
+  color: blue;
+}
+
+body {
+  color:black;
+  /* margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px; */
+}
+
+header {
+  background-color: #f2f2f2;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.continer {
+  background-color: gold;
+  width:400px;
+  height:150px;
+  display:flex;
+  align-items:center;
+  margin: 0 auto;
+}
+
+.icon {
+  background-color: pink;
+}
+
+.info {
+  background-color: palegreen;
+  margin-left: 30px;
+}
+
+.icon img {
+  /* border-radius: 20px; */
+  height:140px;
+  width:140px;
+}
+
+.info h1 {
+  font-weight:normal;
+   font-size: 24px;
+   margin: 10px 0;
+}
+
+.info p {
+  margin: 0px;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  display:flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+
+a {
+  display: block;
+  padding-left: 50px;
+}
+
+.introduction h1{
+  color: skyblue;
+}
+
+.introduction {
+  background-image:url(../img/sea-ocean_00003.jpg);
+  height:500px;
+  width:600px;
+  background-size:cover;
+  margin:0 auto;
+}
+
+footer {
+  text-align:center;
+  color:gray;
+}
