@@ -1,0 +1,38 @@
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.osbslogo {
+  padding-right: 20px;
+}
+
+section {
+  padding:80px 10%;
+}
+
+.osbslogo {
+  height: 100px;
+  width: 100px;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.buil {
+  height: 50%;
+  width: 100%;
+  padding-top: 50px
+}
+
+.buil2 {
+  padding-top: 20px;
+  height: 100%;
+  width: 100%;
+}
