@@ -1,0 +1,66 @@
+section{
+  padding-top: 50px;
+  width:90%;
+  margin: 0 auto;
+  background-color: #ddffdd;
+}
+
+.animals {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cat {
+  align-self: center;
+}
+.cat:hover {
+  transform: translate(150px, 50%) rotate(180deg);
+  transition: transform 2s;
+}
+
+.hippopotamus {
+  align-self: flex-start;
+}
+.hippopotamus:hover {
+  transform: rotate(360deg);
+  transition: transform .5s;
+}
+
+.horse {
+  align-self: flex-end;
+}
+.horse:hover {
+  transform: translatex(-1200px);
+  transition: transform 1s;
+}
+
+.push {
+  align-self: center;
+  position:relative;
+}
+.push > p {
+  position:absolute;
+  bottom:40%;
+  color: gray;
+}
+.push:active{
+  animation:move 3S;
+}
+
+a {
+  align-self: center;
+}
+
+@keyframes move {
+  0% {transform:none;}
+  20% {transform:translate(-300px, -300px);}
+  40% {transform:translate(0px, -500px);}
+  60% {transform:translate(300px, -200px);}
+  80% {transform:none;}
+  90% {transform:rotate(-30deg);}
+  100% {transform:none;}
+}
