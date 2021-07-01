@@ -1,0 +1,102 @@
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#sd {
+  text-align: center;
+}
+
+#men-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+#men2-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.men {
+  animation: men 3s infinite;
+}
+
+.men2 {
+  animation: men2 5s infinite;
+}
+
+img:nth-child(3) {
+  animation: men3 15s infinite;
+}
+
+.men5 {
+  animation: men2 7s infinite;
+}
+
+.segway {
+  animation: segway 10s infinite;
+}
+
+.women {
+  animation: men 7s infinite;
+}
+
+.sprinter {
+  animation: sprinter 5s infinite;
+}
+
+a {
+  float:right;
+}
+
+@keyframes men {
+  0% {transform: none;}
+  20% {transform:translate(100px,100px);}
+  40% {transform:translate(100px,-200px);}
+  60% {transform:translate(300px,100px);}
+  80% {transform:translate(-100px,200px);}
+  100% {transform:none;}
+}
+
+@keyframes men2 {
+  0% {transform: none;}
+  20% {transform:translate(300px,100px);}
+  40% {transform:translate(100px,200px);}
+  60% {transform:translate(300px,100px);}
+  80% {transform:translate(200px,50px);}
+  100% {transform:translate(400px,50px);}
+}
+
+@keyframes men3 {
+  0% {transform: none;}
+  20% {transform:translate(100px,100px);}
+  40% {transform:translate(-300px,-200px);}
+  60% {transform:translate(100px,400px);}
+  80% {transform:translate(-300px,100px);}
+  100% {transform:none;}
+}
+
+@keyframes segway {
+  0% {transform: none;}
+  20% {transform:translate(-600px,0px);}
+  30% {transform:translate(-600px,0px) rotate(-90deg);}
+  40% {transform:translate(-600px,300px) rotate(-90deg);}
+  50% {transform:translate(-600px,300px) rotate(-180deg);}
+  60% {transform:translate(-100px,300px) rotate(-180deg);}
+  70% {transform:translate(-100px,300px) rotate(-260deg);}
+  80% {transform:translate(0px,0px) rotate(-260deg);}
+  100% {transform:none;}
+}
+
+@keyframes sprinter {
+  0% {transform: none;}
+  20% {transform:translate(800px,0px);}
+  30% {transform:translate(800px,0px) rotate(-170deg);}
+  40% {transform:translate(0px,-500px) rotate(-170deg);}
+  50% {transform:translate(0px,-500px) rotate(0deg);}
+  60% {transform:translate(800px,-500px) rotate(0deg);}
+  70% {transform:translate(800px,-500px) rotate(90deg);}
+  80% {transform:translate(800px,0px) rotate(90deg);}
+  90% {transform:translate(800px,0px) rotate(180deg);}
+  95% {transform:translate(0px,0px) rotate(180deg);}
+}

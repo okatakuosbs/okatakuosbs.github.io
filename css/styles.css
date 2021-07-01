@@ -65,6 +65,7 @@ header {
 a {
   display: block;
   padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 .introduction h1{
